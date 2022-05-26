@@ -1,0 +1,84 @@
+{
+    "database_url": "mysql://root:password@127.0.0.1/steemit_dev",
+    "disable_signups": false,
+    "facebook_app_id": false,
+    "google_analytics_id": false,
+    "helmet": {
+        "directives": {
+            "childSrc": "'self'",
+            "connectSrc": "'self' blurt.blog https://blurt.readyplayer.me https://blurt.world https://img.blurt.world https://imgp.blurt.world https://img-upload.blurt.world https://rpc.blurt.world https://blurt-rpc.saboin.com https://kentzz.blurt.world https://rpc.nerdtopia.de https://rpc.dotwin1981.de https://rpc.blurtlatam.com https://blurt.ecosynthesizer.com https://api.blurt.world wss://notifications.blurt.world",
+            "defaultSrc": "'self'",
+            "frameSrc": "https://blurt.readyplayer.me",
+            "fontSrc": "data: fonts.gstatic.com",
+            "frameAncestors": "'none'",
+            "imgSrc": "* data:",
+            "objectSrc": "'none'",
+            "pluginTypes": "application/pdf",
+            "scriptSrc": "'self' www.google-analytics.com",
+            "styleSrc": "'self' 'unsafe-inline' fonts.googleapis.com",
+            "reportUri": "/api/v1/csp_violation"
+        },
+        "reportOnly": false,
+        "setAllHeaders": true
+    },
+    "img_proxy_prefix": "https://imgp.blurt.world/",
+    "ipfs_prefix": "https://ipfs.blurt.world/ipfs/",
+    "price_info_url": "https://api.blurt.world/price_info",
+    "mixpanel": false,
+    "newrelic": false,
+    "notify": {
+        "gcm_key": "google secret key"
+    },
+    "read_only_mode": false,
+    "recaptcha": {
+        "secret_key": false,
+        "site_key": false
+    },
+    "registrar": {
+        "account": "-",
+        "fee": "0.5 BLURT",
+        "delegation": "150250.000000 VESTS",
+        "signing_key": "5J..."
+    },
+    "requestAccountRecovery": {
+        "recovery_account": "steem",
+        "signing_key": "5J..."
+    },
+    "sendgrid": {
+        "from": "noreply@example.com",
+        "key": "SG.xxx_yyyy",
+        "templates": {
+            "confirm_email": false,
+            "waiting_list_invite": false
+        }
+    },
+    "server_session_secret": "exiKdyF+IwRIXJDmtGIl4vWUz4i3eVSISpfZoeYc0s4=",
+    "session_cookie_key": "blurtwallet-cookie-key",
+    "session_key": "blurtwallet-session-key",
+    "site_domain": "blurtwallet.com",
+    "tarantool": {
+        "host": "localhost",
+        "password": "",
+        "port": "3301",
+        "username": "guest"
+    },
+    "telesign": {
+        "customer_id": false,
+        "rest_api_key": false
+    },
+    "twilio": {
+        "account_sid": false,
+        "auth_token": false
+    },
+    "upload_image": "https://img-upload.blurt.world",
+    "blurtd_connection_client": "https://rpc.blurt.world",
+    "blurtd_connection_server": "https://rpc.blurt.world",
+    "blurtd_use_appbase": true,
+    "chain_id": "cd8d90f29ae273abec3eaa7731e25934c63eb654d55080caff2ebb7f5df6381f",
+    "alternative_api_endpoints": "https://rpc.blurt.world https://blurt-rpc.saboin.com https://rpc.nerdtopia.de https://rpc.dotwin1981.de https://kentzz.blurt.world/ https://rpc.blurtlatam.com/ https://blurt.ecosynthesizer.com/",
+    "failover_threshold": 3,
+    "address_prefix": "BLT",
+    "conveyor_posting_wif": false,
+    "conveyor_username": false,
+    "social_url": "https://blurt.blog"
+}

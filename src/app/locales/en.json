@@ -423,7 +423,7 @@
         "witness_thread": "Open witness annoucement",
         "external_site": "Open external site",
         "disabled": "Disabled",
-        "top_witnesses": "Blurt Producer Voting",
+        "top_witnesses": "Blurt Witness (Producer) Voting",
         "fees": "Fees",
         "you_have_votes_remaining": {
             "zero": "You have no votes remaining",
@@ -431,7 +431,7 @@
             "other": "You have %(count)s votes remaining"
         },
         "you_can_vote_for_maximum_of_witnesses": "You can vote for a maximum of 30 witnesses",
-        "rank": "Rank",
+        "rank": "Rank(Active)",
         "witness": "Witness",
         "information": "More Information",
         "if_you_want_to_vote_outside_of_top_enter_account_name": "If you would like to vote for a witness outside of the top 100, enter the account name below to cast a vote",

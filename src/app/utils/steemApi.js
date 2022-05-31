@@ -8,6 +8,10 @@ export async function getStateAsync(url) {
 
     const raw = await api.getStateAsync(path);
 
+    const witness_list = await api.getWitnessesByVoteAsync('', 250);
+
+    raw.witness_list = witness_list;
+
     await axios
         .get($STM_Config.price_info_url, { timeout: 3000 })
         .then((response) => {

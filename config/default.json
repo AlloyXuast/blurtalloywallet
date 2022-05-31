@@ -6,7 +6,7 @@
     "helmet": {
         "directives": {
             "childSrc": "'self'",
-            "connectSrc": "'self' blurt.blog https://blurt.readyplayer.me https://blurt.world https://img.blurt.world https://imgp.blurt.world https://img-upload.blurt.world https://rpc.blurt.world https://blurt-rpc.saboin.com https://kentzz.blurt.world https://rpc.nerdtopia.de https://rpc.dotwin1981.de https://rpc.blurtlatam.com https://blurt.ecosynthesizer.com https://api.blurt.world wss://notifications.blurt.world",
+            "connectSrc": "'self' blurt.alloyxuast.tk https://blurt.readyplayer.me https://blurt.world https://img.blurt.world https://imgp.blurt.world https://img-upload.blurt.world https://rpc.blurt.world https://blurt-rpc.saboin.com https://kentzz.blurt.world https://rpc.nerdtopia.de https://rpc.dotwin1981.de https://rpc.blurtlatam.com https://blurt.ecosynthesizer.com https://api.blurt.world wss://notifications.blurt.world",
             "defaultSrc": "'self'",
             "frameSrc": "https://blurt.readyplayer.me",
             "fontSrc": "data: fonts.gstatic.com",
@@ -22,7 +22,7 @@
         "setAllHeaders": true
     },
     "img_proxy_prefix": "https://imgp.blurt.world/",
-    "ipfs_prefix": "https://ipfs.blurt.world/ipfs/",
+    "ipfs_prefix": "https://ipfs1.alloyxuast.tk/ipfs/",
     "price_info_url": "https://api.blurt.world/price_info",
     "mixpanel": false,
     "newrelic": false,
@@ -55,7 +55,7 @@
     "server_session_secret": "exiKdyF+IwRIXJDmtGIl4vWUz4i3eVSISpfZoeYc0s4=",
     "session_cookie_key": "blurtwallet-cookie-key",
     "session_key": "blurtwallet-session-key",
-    "site_domain": "blurtwallet.com",
+    "site_domain": "blurtwallet.alloyxuast.tk",
     "tarantool": {
         "host": "localhost",
         "password": "",
@@ -80,5 +80,5 @@
     "address_prefix": "BLT",
     "conveyor_posting_wif": false,
     "conveyor_username": false,
-    "social_url": "https://blurt.blog"
+    "social_url": "https://blurt.alloyxuast.tk"
 }

@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const BlurtLogo = ({ nightmodeEnabled }) => {
     const logo = nightmodeEnabled
-        ? '/images/blurt-wallet-logo.png'
-        : '/images/blurt-wallet-logo.png';
+        ? '/images/blurt-alloy-logo.webp'
+        : '/images/blurt-alloy-logo.webp';
 
     return (
         <span className="logo">

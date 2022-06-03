@@ -13,6 +13,7 @@ import { serverApiRecordEvent } from 'app/utils/ServerApiClient';
 import * as blurt from '@blurtfoundation/blurtjs';
 import { determineViewMode } from 'app/utils/Links';
 import frontendLogger from 'app/utils/FrontendLogger';
+import ReactGA from 'react-ga4';
 
 window.addEventListener('error', frontendLogger);
 

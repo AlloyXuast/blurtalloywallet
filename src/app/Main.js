@@ -29,6 +29,22 @@ try {
     console.error(e);
 }
 
+
+ReactGA.initialize([
+    {
+        trackingId: 'G-G46SZC3V14',
+        gaOptions: {
+            anonymizeIp: true
+        }
+    }
+]);
+
+ReactGA.send({
+    hitType: 'pageview',
+    page: window.location.pathname + window.location.search
+});
+
+
 function runApp(initial_state) {
     console.log('Initial state', initial_state);
 
